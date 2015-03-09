@@ -1,3 +1,29 @@
 /* ...
  *= require normalize
 */
+
+h1 {
+  text-align: center;
+}
+
+button {
+  display: block;
+  margin: auto;
+}
+
+.bad-chart {
+  width: 960px;
+  height: 500px;
+  display: block;
+  margin: auto;
+}
+
+.bad-chart rect {
+  fill: #69ccad;
+}
+
+.bad-chart text {
+  fill: white;
+  font: 10px sans-serif;
+  text-anchor: end;
+}

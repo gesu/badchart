@@ -1,1 +1,2 @@
-//= require_tree .
+//= require d3.min
+//= require badchart
