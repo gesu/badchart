@@ -9,21 +9,40 @@ h1 {
 button {
   display: block;
   margin: auto;
+  margin-bottom: 30px;
 }
 
-.bad-chart {
-  width: 960px;
-  height: 500px;
-  display: block;
+.bad-chart-container {
+  width: 980px;
   margin: auto;
 }
 
-.bad-chart rect {
-  fill: #69ccad;
+.bad-chart-container rect {
+  fill: #51E7B8;
 }
 
-.bad-chart text {
-  fill: white;
-  font: 10px sans-serif;
-  text-anchor: end;
+.axis line,
+.axis path {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path,
+.x.axis line {
+  stroke: none;
+}
+
+.axis text {
+  font-size: 13px;
+  fill: #999;
+}
+
+.y.axis path,
+.y.axis line {
+  stroke: #ccc;
+}
+
+.bar:hover {
+  fill: #4FD3AA;
 }
